@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+}
+
+.container{
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+form{
+    display: flex;
+}
+
+input{
+    width: 100%;
+    padding: 8px;
+}
+
+button{
+    padding: 8px;
+    margin-left: 5px;
+    background-color: blue;
+    color: white;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #e6f2ff;
+    display: flex;
+    justify-content: space-between;
+}
+
+.feita{
+    text-decoration: line-through;
+}
+
+.erro{
+    color: red;
+}
